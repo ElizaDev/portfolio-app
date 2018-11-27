@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+#main-slider {
+  background-image: url(assets/slider-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  color: #fff;
+}
