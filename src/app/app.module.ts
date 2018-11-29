@@ -7,17 +7,23 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectsListComponent } from './projects-list/projects-list.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { AccomplishmentsComponent } from './accomplishments/accomplishments.component';
 
 const routes: Routes = [
   { path: 'portfolio-list', component: ProjectsListComponent},
-  { path: '', component: HomeComponent}
+  { path: '', component: HomeComponent},
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
     ProjectsListComponent,
-    HomeComponent
+    HomeComponent,
+    SkillsComponent,
+    ExperienceComponent,
+    AccomplishmentsComponent
   ],
   imports: [
     BrowserModule,
